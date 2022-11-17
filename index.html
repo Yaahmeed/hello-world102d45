@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 
 <head>
+    <link rel="stylesheet" href="styles.css">
+
     <title>Document</title>
 </head>
 
 <body>
+    <script>
+        alert("Hello! Welcome to The Saffron Shoppe!");
+        console.log("I am in the console.");
+        let usersName = prompt("What is your name?");
+        console.log("The user's name is: ", usersName);
+        document.write("Welcome to The Saffron Shoppe, " + usersName);
+
+        let response = prompt("Do you want to buy saffron?");
+
+        if (response == "yes") {
+            alert("You've come to the right place!");
+            document.write("You've come to the right place!");
+        } else if (response == "no") {
+            alert("What are you doing at a saffron shoppe website?");
+            document.write("What are you doing at a saffron shoppe website?")
+        } else {
+            alert("I'm not sure what that means...");
+            document.write("I'm not sure what you mean with that response...");
+        }
+
+        prompt("Do you like flowers?");
+        alert("Cool!");
+        </script>
+
+
     <header>
-        <h1>Saffron</h1>
+        <h1>Saffron Shoppe</h1>
         <nav>
             <a href="https://wwww.google.com">Link 1</a>
 
@@ -20,9 +47,12 @@
         <section>
             <img src="https://images.unsplash.com/photo-1613549026674-2b6c58226395?ixlib=rb-4.0.3&ixid=MnwxMjA
             3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt=“picture saffron" />
-            
-            Photo by <a href="https://unsplash.com/@marliksaffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">marlik saffron</a> on <a href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+            Photo by <a
+                href="https://unsplash.com/@marliksaffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">marlik
+                saffron</a> on <a
+                href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
             <p>Suspendisse iaculis vestibulum nulla vel facilisis.
                 V; Fusce ut elit erat. Mauris a mollis urna. Aenean eget erat lacus. Proin pharetra et diam nec congue.
@@ -33,10 +63,10 @@
         </section>
 
         <section>
-            <h3>History</h3>
+            <h3>Description</h3>
             <img src="https://images.unsplash.com/photo-1631189944771-466264f05965?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
-            alt="saffron plant" />
-            
+                alt="saffron plant" />
+
             Photo by <a
                 href="https://unsplash.com/@benyamin_bohlouli?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benyamin
                 Bohlouli</a> on <a
@@ -44,22 +74,30 @@
 
             <p>Praesent vulputate nisl dictum, auctor risus in, tincidunt elit.
                 Etiam in eros eu augue mattis condimentum vitae quis urna.
-                </p>
+            </p>
         </section>
 
         <section>
-            <h3>Description</h3>
-            <img src="https://images.unsplash.com/photo-1616429266184-7455498d96db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2416&q=80" alt="types of saffron" />
-            Photo by <a href="https://unsplash.com/@econut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jyoti Singh</a> on <a href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+            <h3>Recipes</h3>
+            <img src="https://images.unsplash.com/photo-1616429266184-7455498d96db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2416&q=80"
+                alt="types of saffron" />
+            Photo by <a
+                href="https://unsplash.com/@econut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jyoti
+                Singh</a> on <a
+                href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
             <p>Mauris accumsan enim eu nisl rutrum, ut fringilla nunc malesuada.
                 Nunc pulvinar metus nec aliquet congue.</p>
         </section>
 
         <section>
             <h3>Reviews</h3>
-            <img src="https://images.unsplash.com/photo-1613549026660-6c5c7a9cae1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" alt="reviews" /> Photo by <a href="https://unsplash.com/@marliksaffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">marlik saffron</a> on <a href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+            <img src="https://images.unsplash.com/photo-1613549026660-6c5c7a9cae1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+                alt="reviews" /> Photo by <a
+                href="https://unsplash.com/@marliksaffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">marlik
+                saffron</a> on <a
+                href="https://unsplash.com/s/photos/saffron?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Proin feugiat ligula et iaculis porttitor.</p>
         </section>
@@ -67,6 +105,10 @@
     </main>
 
     <footer>
+        <script>
+            document.write("Thanks for visiting the Saffron Shoppe!");
+        </script>
+
         <p>&copy; Yazahmed 102D45</p>
 
     </footer>
