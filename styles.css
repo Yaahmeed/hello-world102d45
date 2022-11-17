@@ -9,8 +9,9 @@ body {
 }
 
 img {
-    max-width: 40%;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    
   }
 
 header {
